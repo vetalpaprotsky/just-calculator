@@ -1,17 +1,17 @@
 window.onload = function() {
-	buttons.onmouseover = function(evt) {
-		var target = evt.target
-		if (target.tagName !== 'INPUT') return;
+	// buttons.onmouseover = function(evt) {
+	// 	var target = evt.target
+	// 	if (target.tagName !== 'INPUT') return;
 
-		target.classList.add('mouse-over-button');
-	}
+	// 	target.classList.add('mouse-over-button');
+	// }
 
-	buttons.onmouseout = function(evt) {
-		var target = evt.target
-		if (target.tagName !== 'INPUT') return;
+	// buttons.onmouseout = function(evt) {
+	// 	var target = evt.target
+	// 	if (target.tagName !== 'INPUT') return;
 
-		target.classList.remove('mouse-over-button');
-	}
+	// 	target.classList.remove('mouse-over-button');
+	// }
 
 	var calc = {
 		"+": function(a, b) { return a + b; },
@@ -29,7 +29,7 @@ window.onload = function() {
 				this.numberClick(n, bottom);
 				return;
 			}
-			debugger;
+
 			if (bottom.value === "0" || this.flag) {
 				bottom.value = n;
 				this.flag = false;

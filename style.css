@@ -1,10 +1,20 @@
+* {
+	margin: 0;
+	padding: 0;
+}
 #calculator {
-	width: 370px;
-	margin: 20px auto;
+	width: 320px;
+    height: 363px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 
 #calculator .line input[type=text] {
-	width: 346px;
+	width: 296px;
 	display: block;
 	text-align: right;
 	border: 1px grey solid;
@@ -14,36 +24,44 @@
 
 #calculator .line #exp {
 	border-bottom: none;
-	font-size: 14px;
+	font-size: 16px;
 }
 
 #calculator .line #bottom {
 	border-top: none;
-	font-size: 22px;
+	font-size: 28px;;
 	font-family: verdana;
 	margin-bottom: 5px;
 }
 
 #buttons .line input[type=button] {
-	height: 60px;
-	width: 70px;
+	height: 70px;
+	width: 60px;
 	margin: 2px;
 	font-size: 16px;
 }
 
 #buttons .line input.zero {
-	height: 60px;
-	width: 144px;
+	height: 70px;
+	width: 124px;
 }
 
 #buttons input.equal {
-	width: 70px;
-	height: 124px;
+	width: 60px;
+	height: 144px;
 	float: right;
 	margin: 2px;
 	font-size: 16px;
 }
-.mouse-over-button {
+
+input[type=button] {
+	outline: none;
+}
+
+.mouse-over-button,
+#buttons .line input[type=button]:active,
+#buttons .line input.zero:active,
+#buttons input.equal:active {
 	background: #8bc34a;
 	color: white;
 }
