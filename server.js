@@ -7,5 +7,6 @@ app.get('/', function(request, response) {
 	response.send_file(__dirname + '/index.html')
 });
 
-app.listen(80);
+var port = process.env.PORT;
+app.listen(port || 8080);
 console.log('Server is running...');
