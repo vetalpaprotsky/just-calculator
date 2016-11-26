@@ -1,0 +1,26 @@
+{
+  "name": "just-calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vetalpaprotsky/just-calculator.git"
+  },
+  "keywords": [
+    "calculator"
+  ],
+  "author": "vitalik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vetalpaprotsky/just-calculator/issues"
+  },
+  "homepage": "https://github.com/vetalpaprotsky/just-calculator#readme",
+  "devDependencies": {
+    "express": "^4.14.0"
+  }
+}
