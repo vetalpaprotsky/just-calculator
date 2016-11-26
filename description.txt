@@ -1,4 +1,4 @@
-npm inti -> створити package.json
+npm inti -> creates package.json
 npm install express --save-dev
---save -> інсталювати express в кореневу папку
--d -> добавити модуль в package.json
+--save -> installs express in procject directory
+-d -> adds module to package.json
