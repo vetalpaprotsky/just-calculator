@@ -1,4 +1,0 @@
-npm inti -> creates package.json
-npm install express --save-dev
---save -> installs express in procject directory
--d -> adds module to package.json
